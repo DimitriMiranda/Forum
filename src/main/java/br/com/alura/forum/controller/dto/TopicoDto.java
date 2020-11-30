@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import br.com.alura.forum.modelo.Curso;
 import br.com.alura.forum.modelo.Topico;
 
 public class TopicoDto {
@@ -12,18 +13,29 @@ public class TopicoDto {
 	private String titulo;
 	private String mensagem;
 	private LocalDateTime dataCriacao;
+	private Curso curso;
 	
 	
 	
 	
 	
+	public Curso getCurso() {
+		return curso;
+	}
+
+
+	public void setCurso(Curso curso) {
+		this.curso = curso;
+	}
+
+
 	public TopicoDto(Topico topico) {
 		
 		this.id = topico.getId();
 		this.titulo = topico.getTitulo();
 		this.mensagem = topico.getMensagem();
 		this.dataCriacao = topico.getDataCriacao();
-		
+		this.curso = topico.getCurso();
 	}
 	
 	
