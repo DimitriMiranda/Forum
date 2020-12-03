@@ -39,6 +39,26 @@ public class TopicoDto {
 	}
 	
 	
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+
+	public void setMensagem(String mensagem) {
+		this.mensagem = mensagem;
+	}
+
+
+	public void setDataCriacao(LocalDateTime dataCriacao) {
+		this.dataCriacao = dataCriacao;
+	}
+
+
 	public Long getId() {
 		return id;
 	}
