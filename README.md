@@ -2,7 +2,7 @@
 
 Iniciado em 29/11/2020 - Curso Alura Spring Boot API REST- Construa uma API. 
 
-Conhecimentos alcançados: 
+Conhecimentos alcançados: <br /><br />
 
 Uso do gerenciador de pacotes Maven 
 Uso do Bean validation
