@@ -49,11 +49,12 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter {
 	}
 	
 	
-	public static void main(String[] args) {
-		
-		System.out.print(new BCryptPasswordEncoder().encode("123456"));
-		
-		
-	}
+//	public static void main(String[] args) {
+//		
+//		System.out.print(new BCryptPasswordEncoder().encode("123456"));
+//		
+//		
+//	}
+//	.
 	
 }
