@@ -121,6 +121,7 @@ Optional<Topico> optional = topicoRepository.findById(id);
 		if( topico.isPresent() ){
 			
 			topicoRepository.deleteById(id);
+			return ResponseEntity.ok().build();
 		
 		}
 		
